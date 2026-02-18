@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash",
+      "Read",
+      "Write",
+      "Edit",
+      "WebFetch(domain:*)",
+      "WebSearch",
+      "WebFetch(domain:docs.cloud.google.com)",
+      "WebFetch(domain:docs.anthropic.com)"
+    ],
+    "deny": []
+  },
+  "model": "opus",
+  "thinking": {
+    "budget": "ultrathink"
+  }
+}
